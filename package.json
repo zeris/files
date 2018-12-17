@@ -1,0 +1,17 @@
+{
+  "name": "files",
+  "version": "0.1.0",
+  "description": "Transform your CSV files to JSON Format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Brandon González",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "moment": "^2.22.2",
+    "papaparse": "^4.6.2"
+  }
+}
